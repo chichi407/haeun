@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>app design</title>
+	<Style>
+		*{
+			box-sizing: border-box;
+			margin:0;
+		}
+		.app{
+			width: 100%;
+			height: 2800px;
+			background-image: url("app_img.jpg");
+			background-size: cover;
+			background-position: left top;
+		}
+		#chichilogo{
+			margin-left: 100px;
+			margin-top: 100px;
+		}
+		.navi{
+			list-style-type: none;
+			float: right;
+			margin-right: 130px;
+			margin-top: 50px;
+		}
+		.navi li{
+			float: left;
+		}
+		.navi a{
+			text-decoration: none;
+			color: #191919;
+			font-size: 14px;
+			margin-left: 30px;
+			margin-right: 30px;
+			padding-bottom: 5px;
+			/*font-family: "-윤고딕340", Times, sans-serif;*/
+			font-family: 'Roboto', sans-serif;
+		}
+		.navi li a:hover{
+			border-bottom: 2px solid #2EB887;
+		}
+		.name{
+			z-index: 3;
+			text-align: right;
+			font-family: "-윤고딕340", Times, sans-serif;
+			line-height: 20px;
+			margin-right: 165px;
+			margin-top: 220px;
+			font-size: 13px;
+		}
+		.name2{
+			font-family: "-윤고딕320", Times, sans-serif;
+			z-index: 3;
+			font-size: 16px;
+			margin-left:160px;
+			margin-top: -10px;
+		}
+		.main{
+			margin-left: 290px;
+			margin-top: 175px;
+		}
+		.group{
+			text-align: center;
+			margin-top: 300px;
+		}
+		.group img{
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.group2{
+			text-align: center;
+			margin-top: 310px;
+		}
+		.group2 img{
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	</Style>
+</head>
+<body>
+	<div class="app">
+		<a id="chichilogo" href="../../haeun.html"><img src="chichilogo.png" width="200"></a>
+
+		<ul class="navi">
+			<li><a href="../../haeun.html">HOME</a></li>
+			<li><a href="../../introduce/introduce.html">INTRODUCE</a></li>
+			<li><a href="../artworks.html" style="color: #2EB887;">ARTWORKS</a></li>
+			<li><a href="../../contact/contact.html">CONTACT</a></li>
+		</ul>
+
+		<p class="name">hairPICK APP</p>
+		<p class="name2">Customized Hair Design App</p>
+
+		<img class="main" src="main_img.jpg" width="400">
+
+		<div class="group">
+			<img src="img1.jpg" width="250">
+			<img src="img2.jpg" width="250">
+			<img src="img3.jpg" width="250">
+			<img src="img4.jpg" width="250">
+		</div>
+		<div class="group2">
+			<img src="img5.jpg" width="250">
+			<img src="img6.jpg" width="250">
+			<img src="img7.jpg" width="250">
+			<img src="img8.jpg" width="250">
+		</div>
+
+	</div>
+	
+</body>
+</html>

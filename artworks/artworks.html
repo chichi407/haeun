@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>artworks</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap" rel="stylesheet">
+	<Style>
+		*{
+			box-sizing: border-box;
+			margin:0;
+		}
+		.artworks{
+			width: 100%;
+			height: 1800px;
+			background-image: url("artworks_img.jpg");
+			background-size: cover;
+			background-position: left top;
+		}
+
+		#chichilogo{
+			margin-left: 100px;
+			margin-top: 100px;
+		}
+		.navi{
+			list-style-type: none;
+			float: right;
+			margin-right: 130px;
+			margin-top: 50px;
+		}
+		.navi li{
+			float: left;
+		}
+		.navi a{
+			text-decoration: none;
+			color: #191919;
+			font-size: 14px;
+			margin-left: 30px;
+			margin-right: 30px;
+			padding-bottom: 5px;
+			font-family: 'Roboto', sans-serif;
+		}
+		.navi li a:hover{
+			border-bottom: 2px solid #2EB887;
+		}
+
+		.a{
+			margin-top: 520px;
+		}
+		.b{
+			margin-top: 520px;
+		}
+		.c{
+			margin-top: 520px;
+		}
+		.x{
+			float: left;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		.clearfix{
+			clear: left;
+			margin-top: -80px;
+		}
+		.group{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 990px;
+		}
+		.e{
+			margin-top: 22px;
+		}
+		.f{
+			margin-top: -50px;
+		}
+		.group a p{
+			z-index: 3;
+		}
+		.last{
+			font-family: "-윤고딕320", Times, sans-serif;
+			clear: left;
+			text-align: center;
+			font-size: 15px;
+			padding-top: 120px;
+		}
+	</Style>
+</head>
+<body>
+	<div class="artworks">
+		<div class="high">
+		<a id="chichilogo" href="../haeun.html"><img src="chichilogo.png" width="200"></a>
+
+		<ul class="navi">
+			<li><a href="../haeun.html">HOME</a></li>
+			<li><a href="../introduce/introduce.html">INTRODUCE</a></li>
+			<li><a href="../artworks/artworks.html" style="color: #2EB887;">ARTWORKS</a></li>
+			<li><a href="../contact/contact.html">CONTACT</a></li>
+		</ul>
+		</div>
+
+		<div class="group">
+		<a href="industrialdesign/industrialdesign.html"><img class="a x" src="index1.jpg" width="300"></a>
+		<a href="graphicdesign/graphicdesign.html"><img class="b x" src="index2.jpg" width="300"></a>
+		<a href="webdesign/webdesign.html"><img class="c x" src="index3.jpg" width="300"></a>
+
+		<a href="appdesign/appdesign.html"><img class="clearfix x" src="index4.jpg" width="300"></a>
+		<a href="photo/photo.html"><img class="e x" src="index5.jpg" width="300"></a>
+		<a href="3dmodelingdesign/3d.html"><img class="f x" src="index6.jpg" width="300"></a>
+		</div>
+		<p class="last">Graphic Design > App Design > 3D Modeling Design > Web Design > Industrial Design</p>
+	</div>
+
+</body>
+</html>
